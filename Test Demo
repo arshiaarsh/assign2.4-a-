@@ -1,0 +1,19 @@
+import java.io.*;
+public class TestDemo
+{	
+    public static void main(String args[])throws IOException
+    {
+        BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
+        int i;
+        System.out.println("Enter a Number");
+        i=Integer.parseInt(br.readLine());
+        if(i==0)
+        System.out.println("You Have Entered Zero");
+        else if(i>0)
+        System.out.println("ou Have Entered Positive Value");
+        else 
+        System.out.println("You Have Entered Negative Value");
+
+    }
+}
+
